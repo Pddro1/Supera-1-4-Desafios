@@ -37,9 +37,9 @@ public class ContadorDeNotas {
 		System.out.println(notas2 + " nota(s) de R$ 2,00");
 		
 		System.out.println("MOEDAS:");
-        int moedas1 = (int) valor;
-        valor -= moedas1;
-        System.out.println(moedas1 + " moeda(s) de R$ 1.00");
+        int moedas1real = (int) valor;
+        valor -= moedas1real;
+        System.out.println(moedas1real + " moeda(s) de R$ 1.00");
 
         int moedas50 = (int) (valor / 0.50);
         valor %= 0.50;
