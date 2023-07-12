@@ -7,6 +7,7 @@ public class ContadorDeNotas {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
+		//Digitar o valor com virgula, o uso do ponto da erro
 		System.out.println("Digite o Valor: ");
 		double valor = scanner.nextDouble();
 		
